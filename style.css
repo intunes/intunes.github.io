@@ -1,0 +1,272 @@
+@font-face{
+  font-family:MyriadPro-Regular;
+  src:local("MyriadPro-Regular")
+  url(../fonts/MyriadPro-Regular.ttf)
+}
+
+b{
+font-family: MyriadPro-Regular;
+font-weight: normal;
+}
+
+body{
+  font-family: MyriadPro-Regular;
+  margin:0;
+}
+
+input, textarea{
+  margin:0;
+  padding:0;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  outline: inherit;
+  font-family: MyriadPro-Regular;
+}
+
+textarea{
+  resize: none;
+}
+.clear{
+  clear:both;
+}
+
+.content {
+  width: 1920px;
+  margin: 0px auto;
+}
+
+.head {
+  height: 1080px;
+}
+
+
+
+
+.top{
+  height: 1080px;
+  background: url(../img/top.png);
+  position: top;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logo{
+  width: 165px;
+  height: 59px;
+  background: url(../img/logo.png);
+margin-left:200px;
+overflow: hidden;
+}
+
+.big_title{
+  font-style: MyriadPro-Regular;
+  font-size: 32px;
+  margin-top: 320px;
+  margin-left: 193px;
+  color: #44a09b;
+}
+
+.small_title{
+  font-style: MyriadPro-Regular;
+  font-size: 62px;
+  margin-left: 193px;
+}
+
+.bigbtn{
+  height:218px;
+  background: url(../img/bigbtn.png) no-repeat;
+  overflow: hidden;
+}
+
+.data{
+  font-style: MyriadPro-Regular;
+  font-size: 28px;
+  margin-left: 190px;
+  color: #ff8141;
+   margin-top: 49px;
+}
+
+.btnbg{
+  width: 494px;
+  height: 66px;
+  background: url(../img/btnbg.png) no-repeat;
+  margin-left: 192px;
+text-align: center;
+line-height: 65px;
+color:#fff;
+text-transform: uppercase;
+font-size: 34px;
+cursor: pointer;
+}
+
+.magnet{
+  width:504px;
+  height:630px;
+  background: url(../img/magnet.png);
+  float: right;
+  margin-bottom: 42px;
+  margin-top: -550px;
+}
+
+.vector{
+  width: 72px;
+  height: 93px;
+  background: url(../img/vector.png) no-repeat;
+  margin-left: 2250px;
+  margin-top: -420px;
+}
+
+.flash{
+  width: 68px;
+  height: 54px;
+  background: url(../img/flash.png);
+margin-left: 2250px;
+margin-top: -30px;
+}
+
+.flashing{
+  width: 79px;
+  height: 86px;
+  background: url(../img/flashing.png);
+  margin-left: 2170px;
+  margin-top: -110px;
+}
+
+.flashining{
+  width: 79px;
+  height: 86px;
+  background: url(../img/flashing.png);
+  margin-left: 2185px;
+  margin-top: -20px;
+}
+
+.electricity{
+  width: 49px;
+  height: 85px;
+  background: url(../img/electricity.png);
+  margin-left: 2490px;
+  margin-top: -350px;
+}
+
+.scroll{
+  font-style: MyriadPro-Regular;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 500px;
+  margin-left: 500px;
+  color:#fff;
+}
+
+.triangles{
+  width: 58px;
+  height: 41px;
+  background: url(../img/triangles.png);
+margin-left: 1330px;
+}
+
+.content{
+  height: 915px;
+}
+
+
+.titleor{
+  font-style: MyriadPro-Regular;
+  color: #3a4a62;
+  margin-left: 1210px;
+  font-size: 42px;
+}
+
+.powtoon{
+  width: 621px;
+  height: 573px;
+  background: url(../img/powtoon.png);
+  margin-left:1310px;
+  margin-top:200px;
+  overflow: hidden;
+}
+
+.btnbgg{
+  width: 494px;
+  height: 66px;
+  background: url(../img/btnbgg.png) no-repeat;
+  margin-left: 1380px;
+text-align: center;
+line-height: 65px;
+color:#fff;
+text-transform: uppercase;
+font-size: 34px;
+cursor: pointer;
+margin-top:50px;
+}
+
+.frame{
+width: 1100px;
+height: 915px;
+background: url(../img/frame.png) no-repeat;
+background-repeat: no-repeat;
+margin-top: 1080px;
+position:absolute;
+top:0;
+left:10%;
+}
+
+.overlay{
+  width: 1100px;
+  height: 915px;
+  background: url(../img/overlay.png) no-repeat;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.elipse{
+  width: 181px;
+  height: 181px;
+  background: url(../img/elipse.png) no-repeat;
+  position: absolute;
+  top: 380px;
+  left: 445px;
+}
+
+.play{
+width: 44px;
+height: 51px;
+background: url(../img/play.png) no-repeat;
+position: absolute;
+top: 445px;
+left: 520px;
+}
+
+.arrow{
+  width: 136px;
+  height: 123px;
+  background: url(../img/arrow.png) no-repeat;
+  position: absolute;
+  top: 520px;
+  left: 600px;
+}
+
+.see{
+  width: 155px;
+  height: 98px;
+  background: url(../img/see.png) no-repeat;
+  position: absolute;
+  top: 630px;
+  left: 730px;
+}
+
+.footer{
+  height:205px;
+  background: #273d50;
+margin-top:-200px;
+overflow: hidden;
+}
+
+.footer_title{
+  text-align: center;
+  font-size: 80px;
+  color: #fff;
+}
